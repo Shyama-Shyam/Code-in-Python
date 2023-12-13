@@ -132,3 +132,21 @@ c2  = a # pass by object whatever happens with a also happen with c , Creating a
 b = a
 b.append(8)
 print(c1 , c2)
+
+
+'''
+First class objects in a language are handled uniformly throughout. They may be stored in data structures,
+ passed as arguments, or used in control structures. A programming language is said to support first-class 
+functions if it treats functions as first-class objects. Python supports the concept of First Class functions.
+
+Properties of first class functions:
+
+A function is an instance of the Object type.
+You can store the function in a variable.
+You can pass the function as a parameter to another function.
+You can return the function from a function.
+You can store them in data structures such as hash tables, lists, …
+'''
+
+print(type(func))
+# output :func is object of class "function"
