@@ -1,0 +1,5 @@
+name,price,eatable,quantity,in_stock
+'rice',25.5,True,4,False
+'wheat',30,True,10
+'oil',300,True,100
+'ball',30,False,9
