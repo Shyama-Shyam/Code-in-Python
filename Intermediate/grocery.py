@@ -1,3 +1,5 @@
+import csv
+
 class Grocery:
 
     #class attributes same for all the objects unless intialized in instance
@@ -13,13 +15,24 @@ class Grocery:
 
         #instance attributes
         self.quantity = quantity
-        self.name = name
+        self.__name = name #adding 2 underscores make it private attribute , can not print obj.__name
         self.price = price
         self.eatable = eatable
         self.in_stock = in_stock
 
         #actions
         Grocery.items.append(self)
+
+    @property #read only attribute
+    def name(self):
+        return self.__name
+    
+    @name.setter #name is property function that we want to set a new value , us setter
+    def name(self, value):
+        if len(value)<10:
+            self.__name = value
+        else:
+            print('that name is too long')
     
     @classmethod #class method to change class instance take class as argument
     def instantiate_from_csv(cls , path):
@@ -51,36 +64,17 @@ class Grocery:
     #instad of like <__main__.Grocery object at 0x00000215AC8C8350>
     def __repr__(self) -> str: 
         return f"{self.__class__.__name__}('{self.name}', {self.price}, {self.eatable}, {self.quantity})"
-        
-#create object instances from the database (csv) using class method
-import csv
-Grocery.instantiate_from_csv("F:\shreeradha\Code-in-Python\Intermediate\items.csv")
-#create instance of the class
-itm1 = Grocery('chips', 20.5, True, 0, False)
-itm2 = Grocery('biscuit', 300, True , 10 )
-#print(Grocery.items) #all the instances till now
-print(type(itm1).__name__) #name of the class
-#print(Grocery.__dict__) #all methods and class attributes
-print(itm1.__dict__) #all the attributes of the object as dictionary
-print(Grocery.is_integer(4.0)) #static method
-
-
-# INHERITANCE
-# rice -> brown and white rice # attribute specific to this object rice only , so we can ceate a child class
-
-class Rice(Grocery):
-    def __init__(self, name: str, price: float, eatable: bool, quantity: float, in_stock = True, rice_color = 'not defined'):
-        #call super to access all attributes and methods
-        super().__init__(
-            name , price, eatable,  quantity, in_stock
-        )
-        assert rice_color=='not defined' or rice_color=='white' or rice_color=='brown'
-        self.rice_color = rice_color
-
-
-rice1 = Rice('rice white', 30, True, 5, True, 'white')
-print(Grocery.items)
-print(rice1.price)
-rice1.apply_discount()
-print(rice1.price)
-print(type(rice1).__name__)
+    
+    #method to show abstraction
+    def send_mail(self):
+        self.__connect_server()
+        self.__write()
+        self.__send()
+    
+    #private method for abstraction user cannot do obj.__send()
+    def __connect_server(self):
+        pass
+    def __write(self):
+        pass
+    def __send(self):
+        pass

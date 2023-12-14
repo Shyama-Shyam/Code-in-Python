@@ -71,4 +71,10 @@ try:
 except MyError as error:
     print('A New Exception occurred: ', error.value)
 
+#short printing error message
+name = input()
+if len(name) >10:
+    raise Exception("too long name try different")
+else:
+    print("that was a good name")
 
