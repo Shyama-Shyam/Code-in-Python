@@ -39,3 +39,16 @@ print(len(inp))
 #rice child class have disc = 10 , someother child class let say wheat might have disc = 30 so 
 #our apply_disount can  handle both rice and wheat (different type of obbject) and produce different result using 
 #overrided discount class attribute 
+
+#other useful snippets
+
+#  if hasattr(self, 'name'):  obj.atribute exists or not
+
+#Destructors are called when an object gets destroyed. In Python, destructors are not needed as 
+#much as in C++ because Python has a garbage collector that handles memory management automatically. 
+#   def __del__(self):
+#       print('Destructor called, Employee deleted.')
+#del obj
+
+
+#
