@@ -66,5 +66,15 @@ def helloWorld():
  
 helloWorld()
 
+#finding code source of objects
+import inspect
+import queue
+
+def func(x,y):
+    return x+y
+
+print(inspect.getsource(func)) # returns the source code of object
+print(inspect.getsource(queue))
+
 
 
