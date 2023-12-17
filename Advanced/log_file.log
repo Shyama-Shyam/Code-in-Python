@@ -1,0 +1,4 @@
+INFO - 2023-12-17 15:20:02,202 : 20 users online
+WARNING - 2023-12-17 15:20:02,203 : server is overloaded
+ERROR - 2023-12-17 15:20:02,203 : some users crashed
+CRITICAL - 2023-12-17 15:20:02,203 : system crash

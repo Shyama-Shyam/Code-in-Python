@@ -2,7 +2,7 @@
 #insert data into the table, and perform a simple query
 import sqlite3
 # Connect to SQLite database or create if it doesn't exist
-connection = sqlite3.connect('database.db')
+connection = sqlite3.connect('Advanced\database.db')
 cursor = connection.cursor()
 
 cursor.execute("""
