@@ -30,7 +30,7 @@ Clone the repository to your local machine:
 ```bash
 git clone https://github.com/Shyama-Shyam/Code-in-Python.git
 cd Code-in-Python
-
+```
 ## Contributing
 
 Contributions are welcome! If you find any issues, have suggestions, or want to add more content, feel free to open an issue or create a pull request.
