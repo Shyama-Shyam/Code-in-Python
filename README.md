@@ -1,8 +1,7 @@
 # Code in Python: From Basics to Advanced Concepts
 
 [![GitHub license](https://img.shields.io/github/license/Shyama-Shyam/Code-in-Python)](https://github.com/Shyama-Shyam/Code-in-Python/blob/main/LICENSE)
-[![GitHub issues](https://img.shields.io/github/issues/Shyama-Shyam/Code-in-Python)](https://github.com/Shyama-Shyam/Code-in-Python/issues)
-[![GitHub stars](https://img.shields.io/github/stars/Shyama-Shyam/Code-in-Python)](https://github.com/Shyama-Shyam/Code-in-Python/stargazers)
+
 
 Welcome to the Code in Python repository! 🐍 This tutorial covers a comprehensive range of Python concepts, starting from the basics and progressing to advanced topics. Whether you're a beginner or an experienced developer looking to enhance your Python skills, this tutorial has something for everyone.
 
