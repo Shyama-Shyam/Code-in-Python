@@ -11,10 +11,7 @@ Welcome to the Code in Python repository! 🐍 This tutorial covers a comprehens
 - [Introduction](#introduction)
 - [Prerequisites](#prerequisites)
 - [Getting Started](#getting-started)
-- [Topics Covered](#topics-covered)
-- [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -24,8 +21,7 @@ Get ready to embark on a Python learning journey! This tutorial aims to provide 
 
 Before diving into the tutorial, make sure you have the following prerequisites installed:
 
-- [Python](https://www.python.org/) (version X.X or higher)
-- Any additional dependencies (mention if applicable)
+- [Python](https://www.python.org/) 
 
 ## Getting Started
 
@@ -34,3 +30,10 @@ Clone the repository to your local machine:
 ```bash
 git clone https://github.com/Shyama-Shyam/Code-in-Python.git
 cd Code-in-Python
+
+## Contributing
+
+Contributions are welcome! If you find any issues, have suggestions, or want to add more content, feel free to open an issue or create a pull request.
+
+
+
