@@ -2,9 +2,6 @@
 
 Welcome to the Code in Python project! We appreciate your interest in contributing. By contributing, you help make this tutorial more valuable and accessible to learners. Before you start, please take a moment to review the following guidelines.
 
-## Code of Conduct
-
-Please note that this project follows a [Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report any unacceptable behavior to veer.23gwl@gmail.com.
 
 ## How to Contribute
 
